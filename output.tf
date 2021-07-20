@@ -8,3 +8,11 @@ output "grupo_de_recurso" {
 output "rede_virtual_default" {
   value = azurerm_virtual_network.vnetdefault.id
 }
+
+output "subnet_virtual_machines" {
+  value = azurerm_subnet.subnet.id
+}
+
+output "virtual_machines" {
+  value = azurerm_virtual_machine.vm[0].id
+}

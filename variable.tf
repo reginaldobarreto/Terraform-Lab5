@@ -14,9 +14,13 @@ variable "virtual_network_name" {
 }
 
 variable "environment" {
-  default = "Environment"
+
 }
 
 variable "address_space_choice" {
 
+}
+
+variable "subnet_name" {
+  default = "subnet"
 }
